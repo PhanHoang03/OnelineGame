@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01f6a900207a7b4ba217a07753ba4ff, type: 3}
+  m_Name: Level_61
+  m_EditorClassIdentifier: 
+  numRow: 10
+  numCol: 10
+  board:
+  - _row: 00010000000100000000
+  - _row: 01000101000100000000
+  - _row: 00010001000000000000
+  - _row: 00010100010101000100
+  - _row: 00000001000100000001
+  - _row: 01010001010000000000
+  - _row: 00000001000000010100
+  - _row: 00000000000001000100
+  - _row: 00000001000001010001
+  - _row: 00000000010000000100
+  checkBoard:
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
+  - _row: 00000000000000000000
