@@ -19,10 +19,10 @@ public class LevelCtrl : MonoBehaviour
     {
         int index = SceneManager.GetActiveScene().buildIndex;
         Transform source = transform.parent;
-        PlayerPrefs.SetInt("Level", index);
         source.Find("Home").gameObject.SetActive(false);
         source.Find("TraceLine").gameObject.SetActive(false);
         this._text.text = SceneManager.GetActiveScene().name;
+        PlayerPrefs.SetInt("Level", index);
     }
 
     public void NewGame()
